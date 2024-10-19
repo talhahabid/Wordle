@@ -1,0 +1,28 @@
+.Main-Grid{
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.Ans-Row{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.Letter-Box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
